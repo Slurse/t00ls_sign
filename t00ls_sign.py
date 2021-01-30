@@ -35,6 +35,8 @@ logindata = {
 
 rlogin = requests.post('https://www.t00ls.net/login.json', data = logindata)
 rlogj = json.loads(rlogin.text)
+print(rlogj)
+
 if (rlogj["status"] != "success"):
   print("登入失败，请检查输入资料是否正确！")
 else :
