@@ -5,7 +5,7 @@ on:
     branches: 
       - master
   schedule:
-    - cron: '0 55 * * *'
+    - cron: '0 19 * * *'
 
 jobs:
   t00ls_sign:
